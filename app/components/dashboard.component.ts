@@ -13,6 +13,7 @@ import { Router } from 'angular2/router';
     selector: 'my-dashboard',
     templateUrl: "app/templates/dashboard.html",
     styleUrls: ["app/styles/dashboard.css"]
+    //directives: [ParentExampleComponent]
 })
 
 /**

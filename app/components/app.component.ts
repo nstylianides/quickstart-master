@@ -7,6 +7,7 @@ import { HeroService }     from '../services/hero.service';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent} from './hero-detail.component';
+import { ParentChildComponent} from './parent-child.component';
 
 
 @RouteConfig([
@@ -26,7 +27,12 @@ import { HeroDetailComponent} from './hero-detail.component';
         name: 'HeroDetail',
         component: HeroDetailComponent
     }
-])
+    ,
+    {
+        path: '/parentchild',
+        name: 'ParentChild',
+        component: ParentChildComponent
+    }])
 
 
 
